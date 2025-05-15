@@ -48,8 +48,10 @@ void WJrpcApplication::Init(int argv,char **args){
         }
     }
     if(config_path != nullptr){
+        LOG(INFO) <<"文件加载路径 confpath: " << config_path ;
         m_config.LoadConfigFile(config_path);
     }else{
+        LOG(ERROR) << "需指定 -i <配置文件路径>";
         exit(EXIT_FAILURE);
     }
     

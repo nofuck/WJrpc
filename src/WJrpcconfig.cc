@@ -25,13 +25,8 @@ void WJrpcconfigManager::LoadConfigFile(const char *config_file)
     {
         std::string read_buf(buf);
 
-        //检验是否为一整行
-        if (read_buf.find('\n') == std::string::npos)
-        {
-            LOG(WARNING) << "配置文件一行内容太长 " << read_buf;
-            continue;
-        }
-        //删除行尾
+    
+        //删除行尾换行符
         DeleteEnd(read_buf);
         Trim(read_buf);
 

@@ -1,0 +1,3 @@
+/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles/ZKClinet.dir
+/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles/edit_cache.dir
+/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles/rebuild_cache.dir
