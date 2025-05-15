@@ -19,5 +19,4 @@ public:
     //根据key查找对应的value
     std::string Load(const std::string& key);
     
-
 };
