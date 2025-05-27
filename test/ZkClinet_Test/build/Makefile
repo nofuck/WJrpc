@@ -177,6 +177,30 @@ home/liwenjun/WJrpc/src/WJrpcApplication.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcApplication.cc.s
 .PHONY : home/liwenjun/WJrpc/src/WJrpcApplication.cc.s
 
+home/liwenjun/WJrpc/src/WJrpcchannel.o: home/liwenjun/WJrpc/src/WJrpcchannel.cc.o
+.PHONY : home/liwenjun/WJrpc/src/WJrpcchannel.o
+
+# target to build an object file
+home/liwenjun/WJrpc/src/WJrpcchannel.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o
+.PHONY : home/liwenjun/WJrpc/src/WJrpcchannel.cc.o
+
+home/liwenjun/WJrpc/src/WJrpcchannel.i: home/liwenjun/WJrpc/src/WJrpcchannel.cc.i
+.PHONY : home/liwenjun/WJrpc/src/WJrpcchannel.i
+
+# target to preprocess a source file
+home/liwenjun/WJrpc/src/WJrpcchannel.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.i
+.PHONY : home/liwenjun/WJrpc/src/WJrpcchannel.cc.i
+
+home/liwenjun/WJrpc/src/WJrpcchannel.s: home/liwenjun/WJrpc/src/WJrpcchannel.cc.s
+.PHONY : home/liwenjun/WJrpc/src/WJrpcchannel.s
+
+# target to generate assembly for a file
+home/liwenjun/WJrpc/src/WJrpcchannel.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.s
+.PHONY : home/liwenjun/WJrpc/src/WJrpcchannel.cc.s
+
 home/liwenjun/WJrpc/src/WJrpcconfig.o: home/liwenjun/WJrpc/src/WJrpcconfig.cc.o
 .PHONY : home/liwenjun/WJrpc/src/WJrpcconfig.o
 
@@ -200,6 +224,30 @@ home/liwenjun/WJrpc/src/WJrpcconfig.s: home/liwenjun/WJrpc/src/WJrpcconfig.cc.s
 home/liwenjun/WJrpc/src/WJrpcconfig.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.s
 .PHONY : home/liwenjun/WJrpc/src/WJrpcconfig.cc.s
+
+home/liwenjun/WJrpc/src/WJrpcheader.pb.o: home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o
+.PHONY : home/liwenjun/WJrpc/src/WJrpcheader.pb.o
+
+# target to build an object file
+home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o
+.PHONY : home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o
+
+home/liwenjun/WJrpc/src/WJrpcheader.pb.i: home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i
+.PHONY : home/liwenjun/WJrpc/src/WJrpcheader.pb.i
+
+# target to preprocess a source file
+home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i
+.PHONY : home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i
+
+home/liwenjun/WJrpc/src/WJrpcheader.pb.s: home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s
+.PHONY : home/liwenjun/WJrpc/src/WJrpcheader.pb.s
+
+# target to generate assembly for a file
+home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZKClinet.dir/build.make CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s
+.PHONY : home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s
 
 home/liwenjun/WJrpc/src/zookeeperutil.o: home/liwenjun/WJrpc/src/zookeeperutil.cc.o
 .PHONY : home/liwenjun/WJrpc/src/zookeeperutil.o
@@ -240,9 +288,15 @@ help:
 	@echo "... home/liwenjun/WJrpc/src/WJrpcApplication.o"
 	@echo "... home/liwenjun/WJrpc/src/WJrpcApplication.i"
 	@echo "... home/liwenjun/WJrpc/src/WJrpcApplication.s"
+	@echo "... home/liwenjun/WJrpc/src/WJrpcchannel.o"
+	@echo "... home/liwenjun/WJrpc/src/WJrpcchannel.i"
+	@echo "... home/liwenjun/WJrpc/src/WJrpcchannel.s"
 	@echo "... home/liwenjun/WJrpc/src/WJrpcconfig.o"
 	@echo "... home/liwenjun/WJrpc/src/WJrpcconfig.i"
 	@echo "... home/liwenjun/WJrpc/src/WJrpcconfig.s"
+	@echo "... home/liwenjun/WJrpc/src/WJrpcheader.pb.o"
+	@echo "... home/liwenjun/WJrpc/src/WJrpcheader.pb.i"
+	@echo "... home/liwenjun/WJrpc/src/WJrpcheader.pb.s"
 	@echo "... home/liwenjun/WJrpc/src/zookeeperutil.o"
 	@echo "... home/liwenjun/WJrpc/src/zookeeperutil.i"
 	@echo "... home/liwenjun/WJrpc/src/zookeeperutil.s"

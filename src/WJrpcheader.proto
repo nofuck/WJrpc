@@ -1,0 +1,8 @@
+syntax="proto3";
+package WJrpc;
+
+message rpcHeader{
+    string server_name = 1;
+    string server_method = 2;
+    uint32 args_size = 3;
+}

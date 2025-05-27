@@ -1,4 +1,5 @@
 #include"../../src/zookeeperutil.h"
+#include"../../src/WJrpcchannel.h"
 #include <iostream>
 #include<string>
 
@@ -20,4 +21,7 @@ int main(int argv,char **args){
     std::cout << zkclinet->GetData("/testpath") << std::endl;
 
     std::cout << zkclinet->GetData("/testpat") << std::endl;
+
+    WJrpcchannel rpcchannel(false);
+    LOG(INFO) << "host: " << rpcchannel.queryServiceHost(zkclinet,"testpath","one11") << std::endl;
 }

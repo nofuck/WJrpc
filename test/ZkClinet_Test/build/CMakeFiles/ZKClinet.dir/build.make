@@ -125,12 +125,42 @@ CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liwenjun/WJrpc/src/WJrpcconfig.cc -o CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.s
 
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o: CMakeFiles/ZKClinet.dir/flags.make
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o: /home/liwenjun/WJrpc/src/WJrpcchannel.cc
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o: CMakeFiles/ZKClinet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o -MF CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o.d -o CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o -c /home/liwenjun/WJrpc/src/WJrpcchannel.cc
+
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liwenjun/WJrpc/src/WJrpcchannel.cc > CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.i
+
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liwenjun/WJrpc/src/WJrpcchannel.cc -o CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.s
+
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o: CMakeFiles/ZKClinet.dir/flags.make
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o: /home/liwenjun/WJrpc/src/WJrpcheader.pb.cc
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o: CMakeFiles/ZKClinet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o -MF CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o.d -o CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o -c /home/liwenjun/WJrpc/src/WJrpcheader.pb.cc
+
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liwenjun/WJrpc/src/WJrpcheader.pb.cc > CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.i
+
+CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liwenjun/WJrpc/src/WJrpcheader.pb.cc -o CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.s
+
 # Object files for target ZKClinet
 ZKClinet_OBJECTS = \
 "CMakeFiles/ZKClinet.dir/ZkClinet_test.cc.o" \
 "CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/zookeeperutil.cc.o" \
 "CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcApplication.cc.o" \
-"CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.o"
+"CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.o" \
+"CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o" \
+"CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o"
 
 # External object files for target ZKClinet
 ZKClinet_EXTERNAL_OBJECTS =
@@ -139,9 +169,11 @@ ZKClinet: CMakeFiles/ZKClinet.dir/ZkClinet_test.cc.o
 ZKClinet: CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/zookeeperutil.cc.o
 ZKClinet: CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcApplication.cc.o
 ZKClinet: CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcconfig.cc.o
+ZKClinet: CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcchannel.cc.o
+ZKClinet: CMakeFiles/ZKClinet.dir/home/liwenjun/WJrpc/src/WJrpcheader.pb.cc.o
 ZKClinet: CMakeFiles/ZKClinet.dir/build.make
 ZKClinet: CMakeFiles/ZKClinet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ZKClinet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liwenjun/WJrpc/test/ZkClinet_Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ZKClinet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ZKClinet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
